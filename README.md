@@ -1,7 +1,8 @@
 # Keymacs — the keyboard layout for Emacs users
 
-Like for many other alternative layouts first purpose is fix QWERTY problems.
-Second purpose is to be compatible with most typical GNU/Emacs keybindings.
+Like in many other alternative layouts first purpose of this project is
+fix QWERTY problems. Second purpose is to be compatible with most typical
+GNU/Emacs keybindings.
 
 An usable keyboard layout for all purposes is a mythical idea similar
 to idea of an universal programming language. A degree of usability
@@ -9,7 +10,7 @@ always depends on UI of applications you used. Different apps have
 different frequency of key combinations and provide different hotkeys.
 Human languages beside English increase complexity of this task
 by adding own rules of keyboard usage unique per language. Also
-hardware limits of common keyboards prepend to use them ergonomically
+hardware limits of common keyboards prevent to use them ergonomically
 (there are a very small set of keyboards that may be called really
 ergonomic).
 
