@@ -90,6 +90,19 @@ In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
 corpus of English texts).
 
+### Navigation keys
+
+Emacs by default uses holding Control and pressing `F` `B` for
+navigating right-left and `P` `N` for navigating up-down.
+It is easy for remember because of mnemomic names but not very
+good placed on QWERTY. Keymacs places all these keys for one
+hand usage (on left hand). Most used navigation key is moving
+cursor down so it placed in home row.
+
+For the list of the most often pressed key combinations in Emacs
+I used statistics results from
+[ergoemacs.org/emacs/command-frequency.html](http://ergoemacs.org/emacs/command-frequency.html).
+
 ### Carpalx results for the layout
 
     Keyboard effort                                             
