@@ -96,8 +96,9 @@ Emacs by default uses holding Control and pressing `F` `B` for
 navigating right-left and `P` `N` for navigating up-down.
 It is easy for remember because of mnemomic names but not very
 good placed on QWERTY. Keymacs places all these keys for one
-hand usage (on left hand). Most used navigation key is moving
-cursor down so it placed in home row.
+hand usage (under a left hand). Statistically the most used
+navigation key in Emacs is moving cursor down so it placed
+in home row without a finger movement (`N`).
 
 For the list of the most often pressed key combinations in Emacs
 I used statistics results from
