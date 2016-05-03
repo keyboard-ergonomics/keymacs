@@ -177,8 +177,8 @@ right path to ideal.
 
 ## Known problems
 
-* Position of `N` `I` pair is not optimal for high frequency English pair "IN"
-* Navigation block need more tests (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right)
+* Position of `N` `I` pair is bad for high frequency English pair "IN" because these both keys pressed by the left index finger.
+* Navigation block need more tests (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right).
 
 ## Separated navigation layer
 
