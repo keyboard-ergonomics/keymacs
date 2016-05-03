@@ -71,7 +71,7 @@ the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json)
 * TH — at home row in Keymacs, not need finger movement `[+]`
 * HE — at home row in Keymacs, not need finger movement `[+]`
 * AN — at home row in Keymacs, not need finger movement `[+]`
-* IN — at home row in Keymacs `[+/-]`
+* IN — at home row in Keymacs, but need the same finger `[-]`
 * ER — at home row in Keymacs, not need finger movement `[+]`
 * ND — at home row in Keymacs `[+/-]`
 * RE — at home row in Keymacs, not need finger movement `[+]`
