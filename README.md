@@ -173,3 +173,13 @@ right path to ideal.
     7                     1211914 13.2  84.5                    
     8                      854357  9.3  93.8                    
     9                      566276  6.2 100.0                    
+
+
+## Known problems
+
+* Position of `N` `I` pair is not optimal for high frequency English pair "IN"
+* Navigation block need more tests (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right)
+
+## Separated navigation layer
+
+TBD
