@@ -60,7 +60,7 @@ no this time currently. So it will be done later.
 
 ### Heatmaps
 
-There are from [patorjk.com/keyboard-layout-analyzer](http://patorjk.com/keyboard-layout-analyzer/) for
+There are results from [patorjk.com/keyboard-layout-analyzer](http://patorjk.com/keyboard-layout-analyzer/) for
 the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json):
 
 ![Keymacs heatmap for commonly used words](keymacs-heatmap-for-commonly-used-words.png)
