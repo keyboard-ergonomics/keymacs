@@ -58,7 +58,13 @@ Motivation for placement all these keys on such different from QWERTY places
 of cource need explanations. Explanations need significantly more time. I have
 no this time currently. So it will be done later.
 
-TODO well, I really need more explanations here for motivate people try this perfect layout :)
+### Heatmaps
+
+There are from [patorjk.com/keyboard-layout-analyzer](http://patorjk.com/keyboard-layout-analyzer/) for
+the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json):
+
+![Keymacs heatmap for commonly used words](keymacs-heatmap-for-commonly-used-words.png)
+
 
 ### Top of the most frequent letter pairs in English texts
 
@@ -103,6 +109,14 @@ in home row without a finger movement (`N`).
 For the list of the most often pressed key combinations in Emacs
 I used statistics results from
 [ergoemacs.org/emacs/command-frequency.html](http://ergoemacs.org/emacs/command-frequency.html).
+
+### State of the project
+
+This research for the best keyboard continues a long time (I started with my fully custom keyboard circa 2014 and
+earlier I tried another layouts from the net). And it is far from finish.
+Though I got much more comfortable layout for my needs than default but it still has
+a lot of drawbacks. So I can't recommend to use it. But I hope my results may inspire you to find your own
+right path to ideal.
 
 ### Carpalx results for the layout
 
