@@ -39,7 +39,7 @@ You will find them in very inconvenient places. So if you want to use better
 keyboard layout you will need change applications you use for that layout.
 
 It main cause why I not use one of ready alternatives and research for own
-solution. Because I use GNU/Emacs GNU/Emacs most of time and terminals with Emacs-like
+solution. Because I used GNU/Emacs most of time and terminals with Emacs-like
 keybindings. I also try to set Emacs keybindings in other programs where possible.
 And most of time I wrote texts in English (programming languages and docs).
 So with Keymacs I got layout better on many ergonomic parameters than QWERTY and
