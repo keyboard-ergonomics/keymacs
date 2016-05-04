@@ -70,31 +70,34 @@ no this time currently. So it will be done later.
 There are results from [patorjk.com/keyboard-layout-analyzer](http://patorjk.com/keyboard-layout-analyzer/) for
 the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json):
 
-![Keymacs heatmap for commonly used words](keymacs-heatmap-for-commonly-used-words.png)
+![Keymacs heatmap for I chapter of "Alice in Wonderland"](keymacs-heatmap-for-alice-in-wonderland.png)
 
+Compare with QWERTY layout: 
+
+![QWERTY heatmap for I chapter of "Alice in Wonderland"](qwerty-heatmap-for-alice-in-wonderland.png)
 
 ### Top of the most frequent letter pairs in English texts
 
 * TH — at home row in Keymacs, not need finger movement `[+]`
 * HE — at home row in Keymacs, not need finger movement `[+]`
 * AN — at home row in Keymacs, not need finger movement `[+]`
-* IN — at home row in Keymacs, but need the same finger `[-]`
+* IN — at home row in Keymacs, not need finger movement `[+]`
 * ER — at home row in Keymacs, not need finger movement `[+]`
 * ND — at home row in Keymacs `[+/-]`
 * RE — at home row in Keymacs, not need finger movement `[+]`
 * ED — at home row in Keymacs `[+/-]`
-* ES — at home row in Keymacs, not need finger movement `[+]`
+* ES — at home row in Keymacs `[+/-]`
 * OU — need finger movement `[-]`
 * TO — at home row in Keymacs, not need finger movement `[+]`
 * HA — at home row in Keymacs, not need finger movement `[+]`
 * EN — at home row in Keymacs, not need finger movement `[+]`
 * EA — at home row in Keymacs, not need finger movement `[+]`
-* ST — at home row in Keymacs, not need finger movement `[+]`
+* ST — at home row in Keymacs `[+/-]`
 * NT — at home row in Keymacs, not need finger movement `[+]`
 * ON — at home row in Keymacs, not need finger movement `[+]`
 * AT — at home row in Keymacs, not need finger movement `[+]`
-* HI — need finger movement `[-]`
-* AS — at home row in Keymacs, not need finger movement `[+]`
+* HI — at home row in Keymacs, not need finger movement `[+]`
+* AS — at home row in Keymacs `[+/-]`
 
 For compare QWERTY only had *AS* pair placed at home row, but
 all other pairs from the list above need move either one finger.
@@ -128,29 +131,29 @@ right path to ideal.
 
 ### Carpalx results for the layout
 
-    Keyboard effort                                             
+    Keyboard effort
     ------------------------------------------------------------
-    k1                      0.788  76.9  76.9                   
-    k1,k2                   0.992  19.9  96.8                   
-    k1,k2,k3                1.025   3.2 100.0                   
-    b                       0.356  19.3  19.3                   
-    p                       0.670  36.4 153.1                   
+    k1                      0.790  78.4  78.4                   
+    k1,k2                   0.980  18.8  97.2                   
+    k1,k2,k3                1.008   2.8 100.0                   
+    b                       0.336  18.6  18.6                   
+    p                       0.672  37.3 149.9                   
     ph                      0.000   0.0   0.0                   
-    pr                      0.166  24.8  24.8                   
-    pf                      0.431  64.4  89.2                   
-    s                       0.813  44.2 100.0                   
-    all                     1.838 100.0 100.0                   
+    pr                      0.166  24.7  24.7                   
+    pf                      0.431  64.1  88.8                   
+    s                       0.795  44.1 100.0                   
+    all                     1.803 100.0 100.0                   
                                                                 
-    #data effort_k1=>[0.788,76.868,76.868],                     
-    #data effort_k12=>[0.992,19.923,96.790],                    
-    #data effort_k123=>[1.025,3.210,100.000],                   
-    #data effort_base=>[0.356,19.345,19.345],                   
-    #data effort_penalty=>[0.670,36.428,153.104],               
+    #data effort_k1=>[0.790,78.380,78.380],                     
+    #data effort_k12=>[0.980,18.832,97.212],                    
+    #data effort_k123=>[1.008,2.788,100.000],                   
+    #data effort_base=>[0.336,18.616,18.616],                   
+    #data effort_penalty=>[0.672,37.288,149.924],               
     #data effort_penalty_hand=>[0.000,0.000,0.000],             
-    #data effort_penalty_row=>[0.166,24.800,24.800],            
-    #data effort_penalty_finger=>[0.431,64.438,89.238],         
-    #data effort_path=>[0.813,44.227,100.000],                  
-    #data effort_all=>[1.838,100.000,100.000],                  
+    #data effort_penalty_row=>[0.166,24.693,24.693],            
+    #data effort_penalty_finger=>[0.431,64.134,88.827],         
+    #data effort_path=>[0.795,44.096,100.000],                  
+    #data effort_all=>[1.803,100.000,100.000],                  
                                                                 
     keyboard row frequency                                      
     ------------------------------------------------------------
@@ -164,28 +167,27 @@ right path to ideal.
                                                                 
     keyboard hand frequency                                     
     ------------------------------------------------------------
-    0                     4711673 51.5  51.5                    
-    1                     4439492 48.5 100.0                    
+    0                     4634796 50.6  50.6                    
+    1                     4516369 49.4 100.0                    
                                                                 
     #data hand_data=>[qw(0 1)],                                 
-    #data hand_frequency=>[0.515,0.485],                        
-    #data hand_cumulative=>[0.515,1.000],                       
+    #data hand_frequency=>[0.506,0.494],                        
+    #data hand_cumulative=>[0.506,1.000],                       
                                                                 
     keyboard finger frequency                                   
     ------------------------------------------------------------
     0                      539877  5.9   5.9                    
     1                      895424  9.8  15.7                    
     2                     1540730 16.8  32.5                    
-    3                     1735642 19.0  51.5                    
-    6                     1806945 19.7  71.2                    
-    7                     1211914 13.2  84.5                    
-    8                      854357  9.3  93.8                    
-    9                      566276  6.2 100.0                    
-
-
+    3                     1658765 18.1  50.6                    
+    6                     1806945 19.7  70.4                    
+    7                     1211914 13.2  83.6                    
+    8                      918154 10.0  93.7                    
+    9                      579356  6.3 100.0                    
+                                                                
 ## Known problems
 
-* Position of `N` `I` pair is bad for high frequency English pair "IN" because these both keys pressed by the left index finger.
+* Layout has high rate of consecutive finger usage for index fingers.
 * Navigation block need more tests (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right).
 
 ## Separated navigation layer
