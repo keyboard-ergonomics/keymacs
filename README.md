@@ -5,7 +5,7 @@
 * Fix QWERTY problems (apply solutions from well known alternative layouts)
 * Keep keys for general Emacs combos in convenient places
 
-## Introduction into QWERTY keyboard layout problems
+## Introduction into QWERTY layout problems
 
 Like in many other alternative layouts first purpose of this project is
 fix QWERTY problems. Second purpose is to be compatible with most typical
