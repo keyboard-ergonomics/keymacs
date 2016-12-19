@@ -109,12 +109,16 @@ corpus of English texts).
 ### Navigation keys
 
 Emacs by default uses holding Control and pressing `F` `B` for
-navigating right-left and `P` `N` for navigating up-down.
-It is easy for remember because of mnemomic names but not very
-good placed on QWERTY. Keymacs places all these keys for one
-hand usage (under a left hand). Statistically the most used
-navigation key in Emacs is moving cursor down so it placed
-in home row without a finger movement (`N`).
+navigating right-left and `P` `N` for navigating up-down.  It is easy
+for remember because of mnemomic names but badly placed in
+QWERTY. Keymacs places all these keys for one hand usage (under a left
+hand). Statistically the most used navigation key in Emacs is moving
+cursor down so it placed in home row without a finger movement (`N`).
+
+!["Navigation keys"](keymacs-navigation-keys.png)
+
+The block of navigation keys includes `A` and `E` that used in Emacs
+for moving to the beginning or to the end of line.
 
 For the list of the most often pressed key combinations in Emacs
 I used statistics results from
