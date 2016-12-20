@@ -21,6 +21,7 @@
   <key width="80" left="480" height="80" hasHapticMarker="true" fingerIndex="3" top="200">
    <char position="topLeft" modifier="right_shift">N</char>
    <char position="hidden">n</char>
+   <char position="bottomLeft">↓</char>
   </key>
   <key width="80" left="780" height="80" hasHapticMarker="true" fingerIndex="4" top="200">
    <char position="topLeft" modifier="left_shift">O</char>
@@ -31,12 +32,12 @@
    <char position="hidden">t</char>
   </key>
   <key width="80" left="980" height="80" fingerIndex="6" top="200">
-   <char position="topLeft" modifier="left_shift">H</char>
-   <char position="hidden">h</char>
+   <char position="topLeft" modifier="left_shift">I</char>
+   <char position="hidden">i</char>
   </key>
   <key width="80" left="1080" height="80" fingerIndex="7" top="200">
-   <char position="topLeft" modifier="left_shift">S</char>
-   <char position="hidden">s</char>
+   <char position="topLeft" modifier="left_shift">H</char>
+   <char position="hidden">h</char>
   </key>
   <key width="80" left="0" height="80" fingerIndex="0" top="0">
    <char position="topLeft" modifier="right_shift">`</char>
@@ -97,14 +98,17 @@
   <key width="80" left="250" height="80" fingerIndex="1" top="100">
    <char position="topLeft" modifier="right_shift">B</char>
    <char position="hidden">b</char>
+   <char position="bottomLeft">←</char>
   </key>
   <key width="80" left="350" height="80" fingerIndex="2" top="100">
    <char position="topLeft" modifier="right_shift">P</char>
    <char position="hidden">p</char>
+   <char position="bottomLeft">↑</char>
   </key>
   <key width="80" left="450" height="80" fingerIndex="3" top="100">
    <char position="topLeft" modifier="right_shift">F</char>
    <char position="hidden">f</char>
+   <char position="bottomLeft">→</char>
   </key>
   <key width="80" left="550" height="80" fingerIndex="3" top="100">
    <char position="topLeft" modifier="right_shift">G</char>
@@ -139,8 +143,8 @@
    <char position="bottomLeft">]</char>
   </key>
   <key width="80" left="580" height="80" fingerIndex="3" top="200">
-   <char position="topLeft" modifier="right_shift">I</char>
-   <char position="hidden">i</char>
+   <char position="topLeft" modifier="right_shift">S</char>
+   <char position="hidden">s</char>
   </key>
   <key width="80" left="680" height="80" fingerIndex="4" top="200">
    <char position="topLeft" modifier="left_shift">D</char>
@@ -204,6 +208,6 @@
   <specialKey width="830" left="300" height="80" type="space" top="400"/>
   <specialKey width="210" modifierId="left_shift" left="0" height="80" type="shift" top="300"/>
   <specialKey width="160" left="0" height="80" type="other" label="Ctrl" top="200"/>
-  <specialKey width="130" left="1300" height="80" type="capslock" top="0"/>
+  <specialKey width="130" left="1300" height="80" type="backspace" top="0"/>
  </keys>
 </keyboardLayout>
