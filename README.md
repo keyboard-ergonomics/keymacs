@@ -106,6 +106,17 @@ In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
 corpus of English texts).
 
+### Additional remaps
+
+I strongly recommend remap `Control` keys in upper rows instead of
+placing defaults in lower row. For example on my Lenovo I did remap to
+`CapsLock` for `LCtl` and to `Enter` for `RCtl`. So they placed on
+left and right side of home row now (and `Enter` was moved to original
+`Ctl` keys). It depends on a keyboard model.
+
+You would like remap `Alt` keys too because `Meta` key (that called
+`Alt` on PC keyboards) is very actively used in Emacs.
+
 ### Navigation keys
 
 Emacs by default uses holding Control and pressing `F` `B` for
@@ -120,18 +131,27 @@ cursor down so it placed in home row without a finger movement (`N`).
 The block of navigation keys includes `A` and `E` that used in Emacs
 for moving to the beginning or to the end of line.
 
+Well it may look a bit alien. But it is no more alien than Vim' HJKL
+:) With remapped `Ctl` keys (like described in a paragraf above) it is
+comfortable with no matter which hand used for pressing `Ctl`. I
+specially placed up/down arrows with horizontal shift so you can press
+down arrow with index finger on home row and up arrow with middle
+finger. Contrary to traditional placement of up/down arrows on
+additional keyboard where you need use the same middle finger for both
+keys.
+
 For the list of the most often pressed key combinations in Emacs
 I used statistics results from
 [ergoemacs.org/emacs/command-frequency.html](http://ergoemacs.org/emacs/command-frequency.html).
 
 ### State of the project
 
-This my research for the best keyboard continues a long time (I started with my
-fully custom keyboard circa 2014 and earlier I tried another layouts from the net). And
-it is far from finish.
-Though I already got much more comfortable layout for my needs than default but it still has
-a lot of drawbacks. So I can't recommend to use it. But I hope my results may inspire you to find your own
-right path to ideal.
+This my research for the best keyboard continues a long time (I
+started with my fully custom keyboard circa 2014 and earlier I tried
+another layouts from the net). And it is far from finish.  Though I
+already got much more comfortable layout for my needs than default but
+it still has a lot of drawbacks. So I can't recommend to use it. But I
+hope my results may inspire you to find your own right path to ideal.
 
 ### Carpalx results for the layout
 
@@ -196,4 +216,4 @@ right path to ideal.
 
 ## Separated navigation layer
 
-TBD
+With help of xcap. TBD 
