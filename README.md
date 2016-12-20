@@ -159,11 +159,13 @@ I used statistics results from
 ### State of the project
 
 This my research for the best keyboard continues a long time (I
-started with my fully custom keyboard circa 2014 and earlier I tried
-another layouts from the net). And it is far from finish.  Though I
-already got much more comfortable layout for my needs than default but
-it still has a lot of drawbacks. So I can't recommend to use it. But I
-hope my results may inspire you to find your own right path to ideal.
+started with my fully custom keyboard since 2014 (link to
+[the previous effort](https://github.com/grafov/keyboard))and earlier
+I tried another layouts from the net). And it is far from finish.
+Though I already got much more comfortable layout for my needs than
+default but it still has a lot of drawbacks. So I can't recommend to
+use it. But I hope my results may inspire you to find your own right
+path to ideal.
 
 ### Carpalx results for the layout
 
