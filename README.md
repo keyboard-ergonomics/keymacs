@@ -2,58 +2,61 @@
 
 ## Project targets
 
-* Fix QWERTY problems (apply solutions from well known alternative layouts)
-* Keep keys for general Emacs combos in convenient places
+* Fix QWERTY problems (apply solutions from well known alternative layouts).
+* Place keys for general Emacs combos into convenient places.
 
 ## Introduction into QWERTY layout problems
 
-Like in many other alternative layouts first purpose of this project is
-fix QWERTY problems. Second purpose is to be compatible with most typical
-GNU/Emacs keybindings.
+Like in many other alternative layouts first purpose of this project
+is fix QWERTY problems. Second purpose is to be compatible with most
+typical GNU/Emacs keybindings.
 
 An usable keyboard layout for all purposes is a mythical idea similar
 to idea of an universal programming language. A degree of usability
 always depends on UI of applications you used. Different apps have
 different frequency of key combinations and provide different hotkeys.
-Human languages beside English increase complexity of this task
-by adding own rules of keyboard usage unique per language. Also
-hardware limits of common keyboards prevent to use them ergonomically
-(there are a very small set of keyboards that may be called really
+Human languages beside English increase complexity of this task by
+adding own rules of keyboard usage unique per language. Also hardware
+limits of common keyboards prevent to use them ergonomically (there
+are a very small set of keyboards that may be called really
 ergonomic).
 
 But with all these limitations in mind it is possible to increase
-usability of your keyboard for most often used by you applications
-and for languages you speak. And I think resulting layout, that may be
-comfortable for you will be very different from layout comfortable for me.
-But... if we use nearly same set of applications and speak same language
-then optimal for us layouts may be similar too. So it is main idea of this
-project — *it is not possible make universal ergonomic layout for all* but
-it possible make *nearly ergonomic layout* for people who used *similar tools
-and speak same language*.
+usability of your keyboard for most often used by you applications and
+for languages you speak. And I think resulting layout, that may be
+comfortable for you will be very different from layout comfortable for
+me.  But... if we use nearly same set of applications and speak same
+language then optimal for us layouts may be similar too. So it is main
+idea of this project — *it is not possible make universal ergonomic
+layout for all* but it possible make *nearly ergonomic layout* for
+people who used *similar tools and speak same language*.
 
-Yes, it possible to change keybindings in different apps to a single scheme.
-But anyway adapting you keybindings will not improve QWERTY layout. So you
-will choose one of alternatives like Colemak, Norman, Workman etc. But then
-you will try to use it with your honest application you will find how strange
-look old key combos. Especially navigation on chars/words/strings or copypasting.
-For example Colemak keeps ZXCV keys in same places like in QWERTY so you will
-not lost with a new layout in many GUI apps those use these keys for copy-paste
-operations. But if you are Vi or Emacs user you will find a new layout very
-uncomfortable for the most of typical operations because default keybindings
-was oriented on QWERTY. As another example remember navigation keys in Vim:
-where they placed in QWERTY and just compare with any other alternative layout.
-You will find them in very inconvenient places. So if you want to use better
-keyboard layout you will need change applications you use for that layout.
+Yes, it possible to change keybindings in different apps to a single
+scheme.  But anyway adapting you keybindings will not improve QWERTY
+layout. So you will choose one of alternatives like Colemak, Norman,
+Workman etc. But then you will try to use it with your honest
+application you will find how strange look old key combos. Especially
+navigation on chars/words/strings or copypasting.  For example Colemak
+keeps ZXCV keys in same places like in QWERTY so you will not lost
+with a new layout in many GUI apps those use these keys for copy-paste
+operations. But if you are Vi or Emacs user you will find a new layout
+very uncomfortable for the most of typical operations because default
+keybindings was oriented on QWERTY. As another example remember
+navigation keys in Vim: where they placed in QWERTY and just compare
+with any other alternative layout.  You will find them in very
+inconvenient places. So if you want to use better keyboard layout you
+will need change applications you use for that layout.
 
-It main cause why I not use one of ready alternatives and research for own
-solution. Because I used GNU/Emacs most of time and terminals with Emacs-like
-keybindings. I also try to set Emacs keybindings in other programs where possible.
-And most of time I wrote texts in English (programming languages and docs).
-So with Keymacs I got layout better on many ergonomic parameters than QWERTY and
-keys placement well suited for Emacs keybindings.
+It main cause why I not use one of ready alternatives and research for
+own solution. Because I used GNU/Emacs most of time and terminals with
+Emacs-like keybindings. I also try to set Emacs keybindings in other
+programs where possible.  And most of time I wrote texts in English
+(programming languages and docs).  So with Keymacs I got layout better
+on many ergonomic parameters than QWERTY and keys placement well
+suited for Emacs keybindings.
 
-So it is chance that if you use Emacs and apps with Emacs-like bindings than my
-keyboard layout may be good for you too :) 
+So it is chance that if you use Emacs and apps with Emacs-like
+bindings than my keyboard layout may be good for you too :)
 
 ![Keymacs layout](keymacs-layout.png)
 
@@ -61,9 +64,9 @@ keyboard layout may be good for you too :)
 
 TBD
 
-Motivation for placement all these keys on such different from QWERTY places
-of cource need explanations. Explanations need significantly more time. I have
-no this time currently. So it will be done later.
+Motivation for placement all these keys on such different from QWERTY
+places of cource need explanations. Explanations need significantly
+more time. I have no this time currently. So it will be done later.
 
 ### Heatmaps
 
