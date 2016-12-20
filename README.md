@@ -32,7 +32,7 @@ on Emacs experience.
 The same problem appears for Emacs navigation keys on alternative
 layouts. So if you want to use better keyboard layout you will need
 adapt for the layout all your Emacs bindings and bindings in the
-applications that use Emacs bindings (shell for example).
+applications that use Emacs-like bindings (shell for example).
 
 ## Application oriented layout
 
