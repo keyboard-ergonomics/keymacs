@@ -264,7 +264,7 @@ path to ideal.
 ## Known problems
 
 * Layout has high rate of consecutive finger usage for index fingers.
-* Navigation block need more tests (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right).
+* Navigation block need more research (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right).
 
 ## Separated navigation layer
 
