@@ -96,7 +96,7 @@ The table below consists of letter pairs
 Columns for Keymacs and QWERTY layouts reflect two aspects:
 
 * the both letters placed in Home Row (HR) of the layout
-* the both of letters didn't require finger movement (FM)
+* the both letters didn't require finger movement (FM)
 
 If the condition for the layout succeeded then it marked with X. So
 compare number of X marks for both layouts (more is better).
