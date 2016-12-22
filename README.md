@@ -1,3 +1,4 @@
+<!--*- mode:markdown;mode:orgtbl -*-->
 # Keymacs — the keyboard layout for Emacs users
 
 ## Project targets
@@ -90,29 +91,66 @@ Compare with QWERTY layout:
 
 ### Top of the most frequent letter pairs in English texts
 
-* TH — at home row in Keymacs, not need finger movement `[+]`
-* HE — at home row in Keymacs, not need finger movement `[+]`
-* AN — at home row in Keymacs, not need finger movement `[+]`
-* IN — at home row in Keymacs, not need finger movement `[+]`
-* ER — at home row in Keymacs, not need finger movement `[+]`
-* ND — at home row in Keymacs `[+/-]`
-* RE — at home row in Keymacs, not need finger movement `[+]`
-* ED — at home row in Keymacs `[+/-]`
-* ES — at home row in Keymacs `[+/-]`
-* OU — need finger movement `[-]`
-* TO — at home row in Keymacs, not need finger movement `[+]`
-* HA — at home row in Keymacs, not need finger movement `[+]`
-* EN — at home row in Keymacs, not need finger movement `[+]`
-* EA — at home row in Keymacs, not need finger movement `[+]`
-* ST — at home row in Keymacs `[+/-]`
-* NT — at home row in Keymacs, not need finger movement `[+]`
-* ON — at home row in Keymacs, not need finger movement `[+]`
-* AT — at home row in Keymacs, not need finger movement `[+]`
-* HI — at home row in Keymacs, not need finger movement `[+]`
-* AS — at home row in Keymacs `[+/-]`
+The table below consists of letter pairs
+[sorted by popularity in English texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
+Columns for Keymacs and QWERTY layouts reflect two aspects:
 
-For compare QWERTY only had *AS* pair placed at home row, but
-all other pairs from the list above need move either one finger.
+* the both letters placed in Home Row (HR) of the layout
+* the both of letters didn't require finger movement (FM)
+
+If the condition for the layout succeeded then it marked with X. So
+compare number of X marks for both layouts (more is better).
+
+<!--- BEGIN RECEIVE ORGTBL specs -->
+| Pair | Keymacs HR | Keymacs FM | QWERTY HR | QWERTY FM |
+|---|---|---|---|---|
+| TH | X | X |  |  |
+| HE | X | X |  |  |
+| AN | X | X |  |  |
+| IN | X | X |  |  |
+| ER | X | X |  |  |
+| ND | X |  |  |  |
+| RE | X | X |  |  |
+| ED | X |  |  |  |
+| ES | X |  |  |  |
+| OU |  |  |  |  |
+| TO | X | X |  |  |
+| HA | X | X |  |  |
+| EN | X | X |  |  |
+| EA | X | X |  |  |
+| ST | X |  |  |  |
+| NT | X | X |  |  |
+| ON | X | X |  |  |
+| AT | X | X |  |  |
+| HI | X | X |  |  |
+| AS | X |  | X | X |
+<!--- END RECEIVE ORGTBL specs -->
+
+<!---
+#+ORGTBL: SEND specs orgtbl-to-gfm
+| Pair | Keymacs HR | Keymacs FM | QWERTY HR | QWERTY FM |
+|------+------------+------------+-----------+-----------|
+| TH   | X          | X          |           |           |
+| HE   | X          | X          |           |           |
+| AN   | X          | X          |           |           |
+| IN   | X          | X          |           |           |
+| ER   | X          | X          |           |           |
+| ND   | X          |            |           |           |
+| RE   | X          | X          |           |           |
+| ED   | X          |            |           |           |
+| ES   | X          |            |           |           |
+| OU   |            |            |           |           |
+| TO   | X          | X          |           |           |
+| HA   | X          | X          |           |           |
+| EN   | X          | X          |           |           |
+| EA   | X          | X          |           |           |
+| ST   | X          |            |           |           |
+| NT   | X          | X          |           |           |
+| ON   | X          | X          |           |           |
+| AT   | X          | X          |           |           |
+| HI   | X          | X          |           |           |
+| AS   | X          |            | X         | X         |
+-->
 
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
