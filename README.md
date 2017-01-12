@@ -269,3 +269,9 @@ path to ideal.
 ## Separated navigation layer
 
 With help of xcap. TBD 
+
+## Status of the project
+
+Though I mostly satisfied with letters there are many place for
+improvement for numbers placement and non-letter symbols. So layout
+still evolving and may be changed.
