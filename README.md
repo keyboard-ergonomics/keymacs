@@ -205,6 +205,12 @@ default but it still has a lot of drawbacks. So I can't recommend to
 use it. But I hope my results may inspire you to find your own right
 path to ideal.
 
+
+Though I mostly satisfied with letters there are many place for
+improvement for numbers placement and non-letter symbols. So layout
+still evolving and may be changed.
+
+
 ### Carpalx results for the layout
 
     Keyboard effort
@@ -268,10 +274,4 @@ path to ideal.
 
 ## Separated navigation layer
 
-With help of xcap. TBD 
-
-## Status of the project
-
-Though I mostly satisfied with letters there are many place for
-improvement for numbers placement and non-letter symbols. So layout
-still evolving and may be changed.
+See [Control Layer](https://github.com/keyboard-ergonomics/control-layer).
