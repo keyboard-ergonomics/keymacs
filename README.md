@@ -99,7 +99,7 @@ Columns for Keymacs, Norman and QWERTY layouts reflect two aspects:
 If the condition for the layout succeeded then it marked with X. So
 compare number of X marks for both layouts (more is better).
 
-<!--- BEGIN RECEIVE ORGTBL specs -->
+<!--- BEGIN RECEIVE ORGTBL bigrams -->
 | Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
 |---|---|---|---|---|---|---|
 | TH | X | X | X | X |  |  |
@@ -114,10 +114,10 @@ compare number of X marks for both layouts (more is better).
 | OU |  |  |  |  |  |  |
 | TO | X | X | X | X |  |  |
 | HA | X | X | X | X |  |  |
-<!--- END RECEIVE ORGTBL specs -->
+<!--- END RECEIVE ORGTBL bigrams -->
 
 <!---
-#+ORGTBL: SEND specs orgtbl-to-gfm
+#+ORGTBL: SEND bigrams orgtbl-to-gfm
 | Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
 |--------+---------------+---------------+--------------+--------------+--------------+--------------|
 | TH     | X             | X             | X            | X            |              |              |
@@ -134,25 +134,25 @@ compare number of X marks for both layouts (more is better).
 | HA     | X             | X             | X            | X            |              |              |
 -->
 
-<!--- BEGIN RECEIVE ORGTBL specs -->
-| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
+<!--- BEGIN RECEIVE ORGTBL trigrams -->
+| Trigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
 |---|---|---|---|---|---|---|
-| TH | X | X | X | X |  |  |
-| HE | X | X | X | X |  |  |
-| AN | X | X | X | X |  |  |
-| IN | X | X | X | X |  |  |
-| ER | X | X |  |  |  |  |
-| ND | X |  |  |  |  |  |
-| RE | X | X |  |  |  |  |
-| ED | X |  |  |  |  |  |
-| ES | X |  | X | X |  |  |
-| OU |  |  |  |  |  |  |
-| TO | X | X | X | X |  |  |
-| HA | X | X | X | X |  |  |
-<!--- END RECEIVE ORGTBL specs -->
+| THE | X | X | X | X |  |  |
+| AND | X |  |  |  |  |  |
+| ING |  |  | X |  |  |  |
+| HER | X | X |  |  |  |  |
+| HAT | X | X | X | X |  |  |
+| HIS | X |  | X | X |  |  |
+| THA | X | X | X | X |  |  |
+| ERE | X | X |  |  |  |  |
+| FOR |  |  |  |  |  |  |
+| ENT | X | X | X | X |  |  |
+| ION | X | X | X | X |  |  |
+| TER | X | X |  |  |  |  |
+<!--- END RECEIVE ORGTBL trigrams -->
 
 <!---
-#+ORGTBL: SEND specs orgtbl-to-gfm
+#+ORGTBL: SEND trigrams orgtbl-to-gfm
 | Trigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
 |---------+---------------+---------------+--------------+--------------+--------------+--------------|
 | THE     | X             | X             | X            | X            |              |              |
