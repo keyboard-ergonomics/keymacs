@@ -70,13 +70,11 @@ bindings than my keyboard layout may be good for you too :)
 
 ![Keymacs layout](keymacs-layout.png)
 
-## Why is it good for Emacs?
+### Factors that taken into account
 
-TBD
-
-Motivation for placement all these keys on such different from QWERTY
-places of cource need explanations. Explanations need significantly
-more time. I have no this time currently. So it will be done later.
+* Use English letter frequency statistics
+* Minimize lateral movement on the most used bigrams and trigrams
+* Minimize same finger usage on the most used bigrams and trigrams
 
 ### Heatmaps
 
@@ -89,11 +87,11 @@ Compare with QWERTY layout:
 
 ![QWERTY heatmap for I chapter of "Alice in Wonderland"](qwerty-heatmap-for-alice-in-wonderland.png)
 
-### Top of the most frequent letter pairs in English texts
+### Top of the most frequent bigrams in English texts
 
-The table below consists of letter pairs
+The table below consists of bigrams
 [sorted by popularity in English texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
-Columns for Keymacs and QWERTY layouts reflect two aspects:
+Columns for Keymacs, Norman and QWERTY layouts reflect two aspects:
 
 * the both letters placed in Home Row (HR) of the layout
 * the both letters didn't require finger movement (FM)
@@ -102,54 +100,73 @@ If the condition for the layout succeeded then it marked with X. So
 compare number of X marks for both layouts (more is better).
 
 <!--- BEGIN RECEIVE ORGTBL specs -->
-| Pair | Keymacs HR | Keymacs FM | QWERTY HR | QWERTY FM |
-|---|---|---|---|---|
-| TH | X | X |  |  |
-| HE | X | X |  |  |
-| AN | X | X |  |  |
-| IN | X | X |  |  |
-| ER | X | X |  |  |
-| ND | X |  |  |  |
-| RE | X | X |  |  |
-| ED | X |  |  |  |
-| ES | X |  |  |  |
-| OU |  |  |  |  |
-| TO | X | X |  |  |
-| HA | X | X |  |  |
-| EN | X | X |  |  |
-| EA | X | X |  |  |
-| ST | X |  |  |  |
-| NT | X | X |  |  |
-| ON | X | X |  |  |
-| AT | X | X |  |  |
-| HI | X | X |  |  |
-| AS | X |  | X | X |
+| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
+|---|---|---|---|---|---|---|
+| TH | X | X | X | X |  |  |
+| HE | X | X | X | X |  |  |
+| AN | X | X | X | X |  |  |
+| IN | X | X | X | X |  |  |
+| ER | X | X |  |  |  |  |
+| ND | X |  |  |  |  |  |
+| RE | X | X |  |  |  |  |
+| ED | X |  |  |  |  |  |
+| ES | X |  | X | X |  |  |
+| OU |  |  |  |  |  |  |
+| TO | X | X | X | X |  |  |
+| HA | X | X | X | X |  |  |
 <!--- END RECEIVE ORGTBL specs -->
 
 <!---
 #+ORGTBL: SEND specs orgtbl-to-gfm
-| Pair | Keymacs HR | Keymacs FM | QWERTY HR | QWERTY FM |
-|------+------------+------------+-----------+-----------|
-| TH   | X          | X          |           |           |
-| HE   | X          | X          |           |           |
-| AN   | X          | X          |           |           |
-| IN   | X          | X          |           |           |
-| ER   | X          | X          |           |           |
-| ND   | X          |            |           |           |
-| RE   | X          | X          |           |           |
-| ED   | X          |            |           |           |
-| ES   | X          |            |           |           |
-| OU   |            |            |           |           |
-| TO   | X          | X          |           |           |
-| HA   | X          | X          |           |           |
-| EN   | X          | X          |           |           |
-| EA   | X          | X          |           |           |
-| ST   | X          |            |           |           |
-| NT   | X          | X          |           |           |
-| ON   | X          | X          |           |           |
-| AT   | X          | X          |           |           |
-| HI   | X          | X          |           |           |
-| AS   | X          |            | X         | X         |
+| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
+|--------+---------------+---------------+--------------+--------------+--------------+--------------|
+| TH     | X             | X             | X            | X            |              |              |
+| HE     | X             | X             | X            | X            |              |              |
+| AN     | X             | X             | X            | X            |              |              |
+| IN     | X             | X             | X            | X            |              |              |
+| ER     | X             | X             |              |              |              |              |
+| ND     | X             |               |              |              |              |              |
+| RE     | X             | X             |              |              |              |              |
+| ED     | X             |               |              |              |              |              |
+| ES     | X             |               | X            | X            |              |              |
+| OU     |               |               |              |              |              |              |
+| TO     | X             | X             | X            | X            |              |              |
+| HA     | X             | X             | X            | X            |              |              |
+-->
+
+<!--- BEGIN RECEIVE ORGTBL specs -->
+| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
+|---|---|---|---|---|---|---|
+| TH | X | X | X | X |  |  |
+| HE | X | X | X | X |  |  |
+| AN | X | X | X | X |  |  |
+| IN | X | X | X | X |  |  |
+| ER | X | X |  |  |  |  |
+| ND | X |  |  |  |  |  |
+| RE | X | X |  |  |  |  |
+| ED | X |  |  |  |  |  |
+| ES | X |  | X | X |  |  |
+| OU |  |  |  |  |  |  |
+| TO | X | X | X | X |  |  |
+| HA | X | X | X | X |  |  |
+<!--- END RECEIVE ORGTBL specs -->
+
+<!---
+#+ORGTBL: SEND specs orgtbl-to-gfm
+| Trigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | QWERTY in HR | QWERTY no FM |
+|---------+---------------+---------------+--------------+--------------+--------------+--------------|
+| THE     | X             | X             | X            | X            |              |              |
+| AND     | X             |               |              |              |              |              |
+| ING     |               |               | X            |              |              |              |
+| HER     | X             | X             |              |              |              |              |
+| HAT     | X             | X             | X            | X            |              |              |
+| HIS     | X             |               | X            | X            |              |              |
+| THA     | X             | X             | X            | X            |              |              |
+| ERE     | X             | X             |              |              |              |              |
+| FOR     |               |               |              |              |              |              |
+| ENT     | X             | X             | X            | X            |              |              |
+| ION     | X             | X             | X            | X            |              |              |
+| TER     | X             | X             |              |              |              |              |
 -->
 
 In Keymacs most of time you will use home row of your keyboard
@@ -275,3 +292,11 @@ still evolving and may be changed.
 ## Separated navigation layer
 
 See [Control Layer](https://github.com/keyboard-ergonomics/control-layer).
+
+## Conclusion after 3 years of usage
+
+1. All known keyboard models not reflect real efforts. 
+2. Factors used for the current layout need total refinking.
+
+Despite of the not very optimistic conclusion personally I satisfied
+with the results.
