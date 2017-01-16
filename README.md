@@ -95,138 +95,139 @@ The table below consists of bigrams
 [sorted by popularity in English texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
 Columns for Keymacs, Norman and QWERTY layouts reflect two aspects:
 
-* the both letters placed in Home Row (HR) of the layout
-* the both letters didn't require finger movement (FM)
+* the letters placed in Home Row
+* the letters didn't require finger movement
 
 If the condition for the layout succeeded then it marked with X. So
-compare number of X marks for both layouts (more is better).
+compare number of X marks (more is better) for Keymacs well known
+layouts.
 
 <!--- BEGIN RECEIVE ORGTBL bigrams -->
-| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|---|---|---|---|---|---|---|---|---|
-| TH | X | X | X | X | X |  | X | X |
-| HE | X | X | X | X | X |  | X | X |
-| AN | X | X | X | X | X | X | X | X |
-| IN | X | X | X | X | X | X | X | X |
-| ER | X | X |  |  | X | X |  |  |
-| ND | X |  |  |  | X |  | X |  |
-| RE | X | X |  |  | X | X |  |  |
-| ED | X |  |  |  | X |  | X |  |
-| ES | X |  | X | X | X | X | X | X |
-| OU |  |  |  |  |  |  | X | X |
-| TO | X | X | X | X | X | X | X | X |
-| HA | X | X | X | X | X |  | X | X |
+| Bigram | Keymacs | Norman | Colemak | Dvorak |
+|---|---|---|---|---|
+| TH | X | X |  | X |
+| HE | X | X |  | X |
+| AN | X | X | X | X |
+| IN | X | X | X | X |
+| ER | X |  | X |  |
+| ND |  |  |  |  |
+| RE | X |  | X |  |
+| ED |  |  |  |  |
+| ES |  | X | X | X |
+| OU |  |  |  | X |
+| TO | X | X | X | X |
+| HA | X | X |  | X |
 <!--- END RECEIVE ORGTBL bigrams -->
 
 <!---
 #+ORGTBL: SEND bigrams orgtbl-to-gfm
-| Bigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|--------+---------------+---------------+--------------+--------------+---------------+---------------+--------------+--------------|
-| TH     | X             | X             | X            | X            | X             |               | X            | X            |
-| HE     | X             | X             | X            | X            | X             |               | X            | X            |
-| AN     | X             | X             | X            | X            | X             | X             | X            | X            |
-| IN     | X             | X             | X            | X            | X             | X             | X            | X            |
-| ER     | X             | X             |              |              | X             | X             |              |              |
-| ND     | X             |               |              |              | X             |               | X            |              |
-| RE     | X             | X             |              |              | X             | X             |              |              |
-| ED     | X             |               |              |              | X             |               | X            |              |
-| ES     | X             |               | X            | X            | X             | X             | X            | X            |
-| OU     |               |               |              |              |               |               | X            | X            |
-| TO     | X             | X             | X            | X            | X             | X             | X            | X            |
-| HA     | X             | X             | X            | X            | X             |               | X            | X            |
+| Bigram | Keymacs | Norman | Colemak | Dvorak |
+|--------+---------+--------+---------+--------|
+| TH     | X       | X      |         | X      |
+| HE     | X       | X      |         | X      |
+| AN     | X       | X      | X       | X      |
+| IN     | X       | X      | X       | X      |
+| ER     | X       |        | X       |        |
+| ND     |         |        |         |        |
+| RE     | X       |        | X       |        |
+| ED     |         |        |         |        |
+| ES     |         | X      | X       | X      |
+| OU     |         |        |         | X      |
+| TO     | X       | X      | X       | X      |
+| HA     | X       | X      |         | X      |
 -->
 
 So in Keymacs 8/12 of the most frequent bigrams placed in home row
-(HR) without finger movement (FM). Programmer Dvorak has the same
-result for FM.
+without finger movement. Programmer Dvorak has the same result for
+finger movement.
 
 QWERTY is the worst case with finger movement reqiured for all
-mentioned bigrams. It has not any frequent bigram in HR.
+mentioned bigrams. It has not any frequent bigram in home row.
 
 The same for the most frequent trigrams:
 
 <!--- BEGIN RECEIVE ORGTBL trigrams -->
-| Trigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|---|---|---|---|---|---|---|---|---|
-| THE | X | X | X | X | X |  | X | X |
-| AND | X |  |  |  | X |  | X |  |
-| ING |  |  | X |  |  |  |  |  |
-| HER | X | X |  |  |  |  |  |  |
-| HAT | X | X | X | X | X |  | X | X |
-| HIS | X |  | X | X | X |  | X |  |
-| THA | X | X | X | X | X |  | X | X |
-| ERE | X | X |  |  | X | X |  |  |
-| FOR |  |  |  |  |  |  |  |  |
-| ENT | X | X | X | X |  |  | X | X |
-| ION | X | X | X | X | X | X | X |  |
-| TER | X | X |  |  | X | X |  |  |
+| Trigram | Keymacs | Norman | Colemak | Dvorak |
+|---|---|---|---|---|
+| THE | X | X |  | X |
+| AND |  |  |  |  |
+| ING |  |  |  |  |
+| HER | X |  |  |  |
+| HAT | X | X |  | X |
+| HIS |  | X |  |  |
+| THA | X | X |  | X |
+| ERE | X |  | X |  |
+| FOR |  |  |  |  |
+| ENT | X | X |  | X |
+| ION | X | X | X |  |
+| TER | X |  | X |  |
 <!--- END RECEIVE ORGTBL trigrams -->
 
 <!---
 #+ORGTBL: SEND trigrams orgtbl-to-gfm
-| Trigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|---------+---------------+---------------+--------------+--------------+---------------+---------------+--------------+--------------|
-| THE     | X             | X             | X            | X            | X             |               | X            | X            |
-| AND     | X             |               |              |              | X             |               | X            |              |
-| ING     |               |               | X            |              |               |               |              |              |
-| HER     | X             | X             |              |              |               |               |              |              |
-| HAT     | X             | X             | X            | X            | X             |               | X            | X            |
-| HIS     | X             |               | X            | X            | X             |               | X            |              |
-| THA     | X             | X             | X            | X            | X             |               | X            | X            |
-| ERE     | X             | X             |              |              | X             | X             |              |              |
-| FOR     |               |               |              |              |               |               |              |              |
-| ENT     | X             | X             | X            | X            |               |               | X            | X            |
-| ION     | X             | X             | X            | X            | X             | X             | X            |              |
-| TER     | X             | X             |              |              | X             | X             |              |              |
+| Trigram | Keymacs | Norman | Colemak | Dvorak |
+|---------+---------+--------+---------+--------|
+| THE     | X       | X      |         | X      |
+| AND     |         |        |         |        |
+| ING     |         |        |         |        |
+| HER     | X       |        |         |        |
+| HAT     | X       | X      |         | X      |
+| HIS     |         | X      |         |        |
+| THA     | X       | X      |         | X      |
+| ERE     | X       |        | X       |        |
+| FOR     |         |        |         |        |
+| ENT     | X       | X      |         | X      |
+| ION     | X       | X      | X       |        |
+| TER     | X       |        | X       |        |
 -->
 
-In Keymacs 8/12 of the most frequent trigrams placed in home row (HR)
-without finger movement (FM). Other compared layouts have lesser
-trigrams without FM.
+In Keymacs 8/12 of the most frequent trigrams placed in home row
+without finger movement. Other compared layouts have lesser trigrams
+without finger movement.
 
 QWERTY is the worst case with finger movement reqiured for all
-mentioned trigrams. It has not any frequent trigram in HR.
+mentioned trigrams. It has not any frequent trigram in home row.
 
 At last results for the most frequent quadrigrams:
 
 <!--- BEGIN RECEIVE ORGTBL quadrigrams -->
-| Quadrigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|---|---|---|---|---|---|---|---|---|
-| THAT | X | X | X | X | X |  | X | X |
-| THER | X | X |  |  | X |  |  |  |
-| WITH |  |  |  |  |  |  |  |  |
-| TION | X | X | X | X | X | X | X |  |
-| HERE | X | X |  |  | X |  |  |  |
-| OULD |  |  |  |  |  |  |  |  |
-| IGHT |  |  | X |  |  |  |  |  |
-| HAVE |  |  |  |  |  |  |  |  |
-| HICH |  |  |  |  |  |  |  |  |
-| WHIC |  |  |  |  |  |  |  |  |
-| THIS | X |  | X | X | X |  | X |  |
-| THIN | X | X | X | X | X |  | X |  |
+| Quadrigram | Keymacs | Norman | Colemak | Dvorak |
+|---|---|---|---|---|
+| THAT | X | X |  | X |
+| THER | X |  |  |  |
+| WITH |  |  |  |  |
+| TION | X | X | X |  |
+| HERE | X |  |  |  |
+| OULD |  |  |  |  |
+| IGHT |  |  |  |  |
+| HAVE |  |  |  |  |
+| HICH |  |  |  |  |
+| WHIC |  |  |  |  |
+| THIS |  | X |  |  |
+| THIN | X | X |  |  |
 <!--- END RECEIVE ORGTBL quadrigrams -->
 
 <!---
 #+ORGTBL: SEND quadrigrams orgtbl-to-gfm
-| Quadrigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
-|------------+---------------+---------------+--------------+--------------+---------------+---------------+--------------+--------------|
-| THAT       | X             | X             | X            | X            | X             |               | X            | X            |
-| THER       | X             | X             |              |              | X             |               |              |              |
-| WITH       |               |               |              |              |               |               |              |              |
-| TION       | X             | X             | X            | X            | X             | X             | X            |              |
-| HERE       | X             | X             |              |              | X             |               |              |              |
-| OULD       |               |               |              |              |               |               |              |              |
-| IGHT       |               |               | X            |              |               |               |              |              |
-| HAVE       |               |               |              |              |               |               |              |              |
-| HICH       |               |               |              |              |               |               |              |              |
-| WHIC       |               |               |              |              |               |               |              |              |
-| THIS       | X             |               | X            | X            | X             |               | X            |              |
-| THIN       | X             | X             | X            | X            | X             |               | X            |              |
+| Quadrigram | Keymacs | Norman | Colemak | Dvorak |
+|------------+---------+--------+---------+--------|
+| THAT       | X       | X      |         | X      |
+| THER       | X       |        |         |        |
+| WITH       |         |        |         |        |
+| TION       | X       | X      | X       |        |
+| HERE       | X       |        |         |        |
+| OULD       |         |        |         |        |
+| IGHT       |         |        |         |        |
+| HAVE       |         |        |         |        |
+| HICH       |         |        |         |        |
+| WHIC       |         |        |         |        |
+| THIS       |         | X      |         |        |
+| THIN       | X       | X      |         |        |
 -->
 
-In Keymacs 5/12 of the most frequent quadrigrams placed in home row (HR)
-without finger movement (FM). Other compared layouts have lesser
-trigrams without FM.
+In Keymacs 5/12 of the most frequent quadrigrams placed in home row 
+without finger movement. Other compared layouts have lesser
+trigrams without finger movement.
 
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
