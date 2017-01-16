@@ -187,6 +187,47 @@ trigrams without FM.
 QWERTY is the worst case with finger movement reqiured for all
 mentioned trigrams. It has not any frequent trigram in HR.
 
+At last results for the most frequent quadrigrams:
+
+<!--- BEGIN RECEIVE ORGTBL quadrigrams -->
+| Quadrigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
+|---|---|---|---|---|---|---|---|---|
+| that | X | X | X | X | X |  | X | X |
+| ther | X | X |  |  | X |  |  |  |
+| with |  |  |  |  |  |  |  |  |
+| tion | X | X | X | X | X | X | X |  |
+| here | X | X |  |  | X |  |  |  |
+| ould |  |  |  |  |  |  |  |  |
+| ight |  |  | X |  |  |  |  |  |
+| have |  |  |  |  |  |  |  |  |
+| hich |  |  |  |  |  |  |  |  |
+| whic |  |  |  |  |  |  |  |  |
+| this | X |  | X | X | X |  | X |  |
+| thin | X | X | X | X | X |  | X |  |
+<!--- END RECEIVE ORGTBL quadrigrams -->
+
+<!---
+#+ORGTBL: SEND quadrigrams orgtbl-to-gfm
+| Quadrigram | Keymacs in HR | Keymacs no FM | Norman in HR | Norman no FM | Colemak in HR | Colemak no FM | Dvorak in HR | Dvorak no FM |
+|------------+---------------+---------------+--------------+--------------+---------------+---------------+--------------+--------------|
+| that       | X             | X             | X            | X            | X             |               | X            | X            |
+| ther       | X             | X             |              |              | X             |               |              |              |
+| with       |               |               |              |              |               |               |              |              |
+| tion       | X             | X             | X            | X            | X             | X             | X            |              |
+| here       | X             | X             |              |              | X             |               |              |              |
+| ould       |               |               |              |              |               |               |              |              |
+| ight       |               |               | X            |              |               |               |              |              |
+| have       |               |               |              |              |               |               |              |              |
+| hich       |               |               |              |              |               |               |              |              |
+| whic       |               |               |              |              |               |               |              |              |
+| this       | X             |               | X            | X            | X             |               | X            |              |
+| thin       | X             | X             | X            | X            | X             |               | X            |              |
+-->
+
+In Keymacs 5/12 of the most frequent quadrigrams placed in home row (HR)
+without finger movement (FM). Other compared layouts have lesser
+trigrams without FM.
+
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
 corpus of English texts).
