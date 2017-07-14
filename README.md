@@ -270,20 +270,18 @@ I used statistics results from
 
 ### State of the project
 
-This my research for the best keyboard continues a long time (I
-started with my fully custom keyboard since 2014 (link to
-[the previous effort](https://github.com/grafov/keyboard))and earlier
-I tried another layouts from the net). And it is far from finish.
-Though I already got much more comfortable layout for my needs than
-default but it still has a lot of drawbacks. So I can't recommend to
-use it. But I hope my results may inspire you to find your own right
-path to ideal.
-
+This my research for the best keyboard continues for a long time. I
+had tried different well known alternatives like Colemak and Workman
+and after that started with my custom keyboard in 2014 (link
+to [the previous effort](https://github.com/grafov/keyboard)). I am
+still using it. After all it is far from finish. Though I already got
+much more comfortable layout for my needs than default but it still
+has a lot of drawbacks. So I can't recommend to use it yet. But I hope
+my results may inspire you to find your own right path to the ideal.
 
 Though I mostly satisfied with letters there are many place for
-improvement for numbers placement and non-letter symbols. So layout
-still evolving and may be changed.
-
+improvement for numbers placement and non-letter symbols. So the
+layout continues to evolve.
 
 ### Carpalx results for the layout
 
