@@ -5,32 +5,27 @@
 
 * Fix QWERTY problems (apply solutions from well known alternative
   layouts).
-* Place keys for general Emacs combos into convenient places instead
-  of remapping them in Emacs.
-
-Like in many other alternative layouts first purpose of this project
-is fix QWERTY problems. Second purpose is to be compatible with most
-typical GNU/Emacs keybindings.
+* Place keys for general Emacs combos into easyly accessible places
+  instead of remapping them in Emacs.
 
 ### Problems with familiar keys bindings in alternative keyboards
 
-Commonly the most alternative layouts solve only first problem
-mentioned above: they help you avoid inconvenience of QWERTY. But they
-require you remap the most of known Emacs keys for different modes
+Commonly the most of alternative layouts solve only first problem
+mentioned above: they help you avoid ergonomic problems of QWERTY. But
+they are require you remap the most of frequently used in Emacs keys
 because these layouts was made without Emacs in mind. For example
-several well known layouts try keep `XCV` keys in convenient place (or
-in the same place as QWERTY) because historically many applications on
-the desktop platforms (Windows, Mac, Linux) use these keys for
-clipboard operations. So it is a strong habit of computer users that
-even alternative layouts wont break it. But Emacs uses other keys for
-clipboard by default: `Ctl`-`W` for cut, `Meta`-`W` for copy and
-`Ctl`-`Y` for insert. I think these keys badly placed on QWERTY. But
-on Dvorak layout they placed even worse on my sense. Norman layout
-places them in more accessible places though. But anyway alternative
-layouts targeted at mostly used apps (like word processors and well
-known browsers) those keyboard combos very different from habits
-suggested by Emacs. So my try is create the layout oriented primarily
-on Emacs experience.
+several well known layouts try to keep `XCV` keys in the same place as
+QWERTY because historically many applications on the desktop platforms
+(Windows, Mac, Linux) had used these keys for clipboard operations. So
+this is a strong habit of computer users that even alternative layouts
+wont break it. But Emacs uses other keys for clipboard by default:
+`Ctl`-`W` for cut, `Meta`-`W` for copy and `Ctl`-`Y` for insert. I
+think these keys badly placed on QWERTY. But on Dvorak layout they
+placed even worse on my sense. Norman layout places them in more
+accessible places though. But anyway alternative layouts targeted at
+mostly used apps (like word processors and well known browsers) those
+keyboard combos very different from habits suggested by Emacs. So my
+try is create the layout oriented primarily on Emacs experience.
 
 The same problem appears for Emacs navigation keys on alternative
 layouts. So if you want to use better keyboard layout you will need
@@ -39,8 +34,8 @@ applications that use Emacs-like bindings (shell for example).
 
 ## Application oriented layout
 
-I think an usable keyboard layout for all purposes is a mythical idea
-similar to idea of an universal programming language. A degree of
+I think the usable keyboard layout for all purposes is a mythical idea
+similar to idea of the universal programming language. A degree of
 usability always depends on UI of applications you used. Different
 apps have different frequency of key combinations and provide
 different hotkeys.  Human languages beside English increase complexity
@@ -74,9 +69,11 @@ bindings than my keyboard layout may be good for you too :)
 
 ### Factors that taken into account
 
+* Preferable usage of the home row
 * Use English letter frequency statistics
 * Minimize lateral movement on the most used bigrams and trigrams
 * Minimize same finger usage on the most used bigrams and trigrams
+* Equal effort for both hands
 
 ### Heatmaps
 
@@ -183,10 +180,10 @@ The same for the most frequent trigrams:
 
 In Keymacs 8/12 of the most frequent trigrams placed in home row
 without finger movement. Other compared layouts have lesser trigrams
-without finger movement.
+in home row.
 
 QWERTY is the worst case with finger movement reqiured for all
-mentioned trigrams. It has not any frequent trigram in home row.
+mentioned trigrams. It has none frequent trigrams in home row.
 
 At last results for the most frequent quadrigrams:
 
@@ -226,8 +223,8 @@ At last results for the most frequent quadrigrams:
 -->
 
 In Keymacs 5/12 of the most frequent quadrigrams placed in home row 
-without finger movement. Other compared layouts have lesser
-trigrams without finger movement.
+without finger movement. Other compared layouts have less
+quadrigrams in home row.
 
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
@@ -347,7 +344,8 @@ still evolving and may be changed.
 ## Known problems
 
 * Layout has high rate of consecutive finger usage for index fingers.
-* Navigation block need more research (all keys ←↓↑→ on one hand VS splitted ↓↑ on left and ←→ on right).
+* Navigation block need more research (all keys ←↓↑→ on one hand VS
+  splitted ↓↑ on left and ←→ on right).
 
 ## Separated navigation layer
 

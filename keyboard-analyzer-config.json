@@ -1,8 +1,5 @@
 {
     "label": "Keymacs",
-    "author": "Axel",
-    "moreInfoUrl": "http://github.com/keyboard-ergonomics/keymacs",
-    "moreInfoText": "keymacs",
     "fingerStart": {
         "1": 29,
         "2": 30,
@@ -18,6 +15,10 @@
         "false": -1
     },
     "keyboardType": "standard",
+    "author": "Axel",
+    "authorUrl": "",
+    "moreInfoUrl": "http://github.com/keyboard-ergonomics/keymacs",
+    "moreInfoText": "keymacs",
     "keys": [
         {
             "primary": 96,
@@ -184,8 +185,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 108,
-            "shift": 76,
+            "primary": 100,
+            "shift": 68,
             "finger": 8,
             "id": 22,
             "altGr": -1,
@@ -273,8 +274,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 100,
-            "shift": 68,
+            "primary": 108,
+            "shift": 76,
             "finger": 7,
             "id": 34,
             "altGr": -1,
