@@ -349,13 +349,16 @@ layout continues to evolve.
 
 See [Control Layer](https://github.com/keyboard-ergonomics/control-layer).
 
-## Conclusion after 3 years of usage
+## Project status after 4 years
 
-1. All known keyboard models not reflect real efforts. 
-2. Factors used for the current layout need total refinking.
+One thing that I know today — the keyboard layout optimization is
+endless process :)
 
-Despite of the not very optimistic conclusion personally I satisfied
-with the results.
+I mostly satisfied with current results. I have moved to [Ergodox EZ
+keyboard](http://ergodox-ez.com) and [adapted Keymacs layout to
+it](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/grafov). It
+looks [like
+this](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/grafov).
 
 ## License
 
