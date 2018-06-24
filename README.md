@@ -358,7 +358,7 @@ I mostly satisfied with current results. I have moved to [Ergodox EZ
 keyboard](http://ergodox-ez.com) and [adapted Keymacs layout to
 it](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/grafov). It
 looks [like
-this](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/grafov).
+this](https://configure.ergodox-ez.com/keyboard_layouts/bljxnj).
 
 ## License
 
