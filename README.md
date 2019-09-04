@@ -36,34 +36,37 @@ applications that use Emacs-like bindings (shell for example).
 
 I think the usable keyboard layout for all purposes is a mythical idea
 similar to idea of the universal programming language. A degree of
-usability always depends on UI of applications you used. Different
-apps have different frequency of key combinations and provide
-different hotkeys.  Human languages beside English increase complexity
-of this task by adding own rules of keyboard usage unique per
-language. Also hardware limits of common keyboards prevent to use them
-ergonomically (there are a very small set of keyboards that may be
-called really ergonomic).
+usability always depends on UI of applications you use. Different apps
+have different frequency of key combinations and provide different
+hotkeys.  Human languages beside English increase complexity of this
+task by adding their own rules of keys frequency that unique per each
+language. Also the hardware limits of common keyboards prevent to use
+them ergonomically (there are a very small set of keyboards that may
+be called really ergonomic).
 
-But with all these limitations in mind it is possible to increase
-usability of your keyboard for most often used by you applications and
-for languages you speak. And I think resulting layout, that may be
-comfortable for you will be very different from layout comfortable for
-me.  But if we use nearly same set of applications and speak same
-language then layouts that optimal for us may be similar too. So it is
-main idea of this project — *it is not possible make universal
-ergonomic layout for all purposes* but it possible make *nearly
-ergonomic layout* for people who used *the same tools*.
+But I think with all these limitations in mind it is possible to
+increase usability of your keyboard for the applications that we use
+most often for the one selected natural language. So the results for
+example for a person who most of the time write texts and
+presentations in office applications under MacOS will totally
+different against programmer who most of the time uses Vim and text
+utilities under Linux. There are no common optimal keyboard layout for
+them. But when people use nearly same set of applications and speak
+the same language then layouts would be similar too. So it is main
+idea of this project — *it is not possible get universal ergonomic
+layout for all purposes* but it possible to make *nearly ergonomic
+layout* for the people who uses *the same tools*.
 
 It main cause why I not use one of ready alternatives and research for
-own solution. Because I used GNU/Emacs most of time and terminals with
-Emacs-like keybindings. I also try to set Emacs keybindings in other
-programs where possible.  And most of time I wrote texts in English
-(programming languages and docs).  So with Keymacs I got layout better
-on many ergonomic parameters than QWERTY and keys placement well
-suited for Emacs bindings.
+my own solution. In my everyday work of computer I use GNU/Emacs and
+terminals with Emacs-like keybindings. I also try to set Emacs
+keybindings in other programs where possible.  And most of time I
+wrote texts in English for programming languages and documentation.
+So with Keymacs I could get layout better for many parameters than
+QWERTY and get keys placement well suited for Emacs bindings.
 
 So it is chance that if you use Emacs and apps with Emacs-like
-bindings than my keyboard layout may be good for you too :)
+bindings then my keyboard layout may be good for you too.
 
 ![Keymacs layout](keymacs-layout.png)
 
@@ -349,12 +352,12 @@ layout continues to evolve.
 
 See [Control Layer](https://github.com/keyboard-ergonomics/control-layer).
 
-## Project status after 4 years
+## Project status after 5 years
 
 One thing that I know today — the keyboard layout optimization is
 endless process :)
 
-I mostly satisfied with current results. I have moved to [Ergodox EZ
+I mostly satisfied with current results. In 2017 I moved to [Ergodox EZ
 keyboard](http://ergodox-ez.com) and [adapted Keymacs layout to
 it](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keymaps/grafov). It
 looks [like
@@ -363,4 +366,3 @@ this](https://configure.ergodox-ez.com/keyboard_layouts/bljxnj).
 ## License
 
 This work dedicated to the public domain.
-
