@@ -5,7 +5,7 @@
 
 * Fix QWERTY problems (apply solutions from well known alternative
   layouts).
-* Place keys for general Emacs combos into easyly accessible places
+* Place keys for general Emacs combos into easily accessible places
   instead of remapping them in Emacs.
 
 ### Problems with familiar keys bindings in alternative keyboards
@@ -82,7 +82,7 @@ the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json)
 
 ![Keymacs heatmap for I chapter of "Alice in Wonderland"](keymacs-heatmap-for-alice-in-wonderland.png)
 
-Compare with QWERTY layout: 
+Compare with QWERTY layout:
 
 ![QWERTY heatmap for I chapter of "Alice in Wonderland"](qwerty-heatmap-for-alice-in-wonderland.png)
 
@@ -136,9 +136,9 @@ layouts.
 
 So in Keymacs 8/12 of the most frequent bigrams placed in home row
 without finger movement. Programmer Dvorak has the same result for
-finger movement.
+the finger movement.
 
-QWERTY is the worst case with finger movement reqiured for all
+QWERTY is the worst case with the finger movement reqiured for all
 mentioned bigrams. It has not any frequent bigram in home row.
 
 The same for the most frequent trigrams:
@@ -182,7 +182,7 @@ In Keymacs 8/12 of the most frequent trigrams placed in home row
 without finger movement. Other compared layouts have lesser trigrams
 in home row.
 
-QWERTY is the worst case with finger movement reqiured for all
+QWERTY is the worst case with the finger movement reqiured for all
 mentioned trigrams. It has none frequent trigrams in home row.
 
 At last results for the most frequent quadrigrams:
@@ -222,9 +222,9 @@ At last results for the most frequent quadrigrams:
 | THIN       | X       | X      |         |        |
 -->
 
-In Keymacs 5/12 of the most frequent quadrigrams placed in home row 
+In Keymacs 5/12 of the most frequent quadrigrams placed in home row
 without finger movement. Other compared layouts have less
-quadrigrams in home row.
+quadrigrams in home row. Only Norman has good result too.
 
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
@@ -285,60 +285,60 @@ layout continues to evolve.
 
 ### Carpalx results for the layout
 
-    Keyboard effort
-    ------------------------------------------------------------
-    k1                      0.790  78.4  78.4                   
-    k1,k2                   0.980  18.8  97.2                   
-    k1,k2,k3                1.008   2.8 100.0                   
-    b                       0.336  18.6  18.6                   
-    p                       0.672  37.3 149.9                   
-    ph                      0.000   0.0   0.0                   
-    pr                      0.166  24.7  24.7                   
-    pf                      0.431  64.1  88.8                   
-    s                       0.795  44.1 100.0                   
-    all                     1.803 100.0 100.0                   
-                                                                
-    #data effort_k1=>[0.790,78.380,78.380],                     
-    #data effort_k12=>[0.980,18.832,97.212],                    
-    #data effort_k123=>[1.008,2.788,100.000],                   
-    #data effort_base=>[0.336,18.616,18.616],                   
-    #data effort_penalty=>[0.672,37.288,149.924],               
-    #data effort_penalty_hand=>[0.000,0.000,0.000],             
-    #data effort_penalty_row=>[0.166,24.693,24.693],            
-    #data effort_penalty_finger=>[0.431,64.134,88.827],         
-    #data effort_path=>[0.795,44.096,100.000],                  
-    #data effort_all=>[1.803,100.000,100.000],                  
-                                                                
-    keyboard row frequency                                      
-    ------------------------------------------------------------
-    1                     1483367 16.2  16.2                    
-    2                     6734080 73.6  89.8                    
-    3                      933718 10.2 100.0                    
-                                                                
-    #data row_data=>[qw(1 2 3)],                                
-    #data row_frequency=>[0.162,0.736,0.102],                   
-    #data row_cumulative=>[0.162,0.898,1.000],                  
-                                                                
-    keyboard hand frequency                                     
-    ------------------------------------------------------------
-    0                     4634796 50.6  50.6                    
-    1                     4516369 49.4 100.0                    
-                                                                
-    #data hand_data=>[qw(0 1)],                                 
-    #data hand_frequency=>[0.506,0.494],                        
-    #data hand_cumulative=>[0.506,1.000],                       
-                                                                
-    keyboard finger frequency                                   
-    ------------------------------------------------------------
-    0                      539877  5.9   5.9                    
-    1                      895424  9.8  15.7                    
-    2                     1540730 16.8  32.5                    
-    3                     1658765 18.1  50.6                    
-    6                     1806945 19.7  70.4                    
-    7                     1211914 13.2  83.6                    
-    8                      918154 10.0  93.7                    
-    9                      579356  6.3 100.0                    
-                                                                
+	Keyboard effort
+	------------------------------------------------------------
+	k1                      0.790  78.4  78.4
+	k1,k2                   0.980  18.8  97.2
+	k1,k2,k3                1.008   2.8 100.0
+	b                       0.336  18.6  18.6
+	p                       0.672  37.3 149.9
+	ph                      0.000   0.0   0.0
+	pr                      0.166  24.7  24.7
+	pf                      0.431  64.1  88.8
+	s                       0.795  44.1 100.0
+	all                     1.803 100.0 100.0
+
+	#data effort_k1=>[0.790,78.380,78.380],
+	#data effort_k12=>[0.980,18.832,97.212],
+	#data effort_k123=>[1.008,2.788,100.000],
+	#data effort_base=>[0.336,18.616,18.616],
+	#data effort_penalty=>[0.672,37.288,149.924],
+	#data effort_penalty_hand=>[0.000,0.000,0.000],
+	#data effort_penalty_row=>[0.166,24.693,24.693],
+	#data effort_penalty_finger=>[0.431,64.134,88.827],
+	#data effort_path=>[0.795,44.096,100.000],
+	#data effort_all=>[1.803,100.000,100.000],
+
+	keyboard row frequency
+	------------------------------------------------------------
+	1                     1483367 16.2  16.2
+	2                     6734080 73.6  89.8
+	3                      933718 10.2 100.0
+
+	#data row_data=>[qw(1 2 3)],
+	#data row_frequency=>[0.162,0.736,0.102],
+	#data row_cumulative=>[0.162,0.898,1.000],
+
+	keyboard hand frequency
+	------------------------------------------------------------
+	0                     4634796 50.6  50.6
+	1                     4516369 49.4 100.0
+
+	#data hand_data=>[qw(0 1)],
+	#data hand_frequency=>[0.506,0.494],
+	#data hand_cumulative=>[0.506,1.000],
+
+	keyboard finger frequency
+	------------------------------------------------------------
+	0                      539877  5.9   5.9
+	1                      895424  9.8  15.7
+	2                     1540730 16.8  32.5
+	3                     1658765 18.1  50.6
+	6                     1806945 19.7  70.4
+	7                     1211914 13.2  83.6
+	8                      918154 10.0  93.7
+	9                      579356  6.3 100.0
+
 ## Known problems
 
 * Layout has high rate of consecutive finger usage for index fingers.
