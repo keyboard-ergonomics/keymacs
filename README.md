@@ -363,6 +363,8 @@ it](https://github.com/grafov/qmk_firmware/tree/master/keyboards/ergodox_ez/keym
 looks [like
 this](https://configure.ergodox-ez.com/keyboard_layouts/bljxnj).
 
+![Adaptation of Keymacs for Ergodox](keymacs-on-ergodox.png)
+
 ## License
 
 This work dedicated to the public domain.
