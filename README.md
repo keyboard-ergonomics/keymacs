@@ -120,22 +120,24 @@ more Xs are better.
 | OU |  |  |  | X |  |
 | TO | X | X | X | X |  |
 | HA | X | X |  | X |  |
+| Total | 8(best) | 7 | 6 | 8(best) | 0(worst) |
 <!--- END RECEIVE ORGTBL bigrams
 #+ORGTBL: SEND bigrams orgtbl-to-gfm
-| Bigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
-|--------+---------+--------+---------+--------+--------|
-| TH     | X       | X      |         | X      |        |
-| HE     | X       | X      |         | X      |        |
-| AN     | X       | X      | X       | X      |        |
-| IN     | X       | X      | X       | X      |        |
-| ER     | X       |        | X       |        |        |
-| ND     |         |        |         |        |        |
-| RE     | X       |        | X       |        |        |
-| ED     |         |        |         |        |        |
-| ES     |         | X      | X       | X      |        |
-| OU     |         |        |         | X      |        |
-| TO     | X       | X      | X       | X      |        |
-| HA     | X       | X      |         | X      |        |
+| Bigram | Keymacs | Norman | Colemak | Dvorak  | QWERTY   |
+|--------+---------+--------+---------+---------+----------|
+| TH     | X       | X      |         | X       |          |
+| HE     | X       | X      |         | X       |          |
+| AN     | X       | X      | X       | X       |          |
+| IN     | X       | X      | X       | X       |          |
+| ER     | X       |        | X       |         |          |
+| ND     |         |        |         |         |          |
+| RE     | X       |        | X       |         |          |
+| ED     |         |        |         |         |          |
+| ES     |         | X      | X       | X       |          |
+| OU     |         |        |         | X       |          |
+| TO     | X       | X      | X       | X       |          |
+| HA     | X       | X      |         | X       |          |
+| Total  | 8(best) | 7      | 6       | 8(best) | 0(worst) |
 -->
 Suchwise in Keymacs 8 of 12 for the most frequent bigrams placed in
 home row without finger movement. Dvorak has the same result for the
@@ -161,22 +163,24 @@ The same test for the most frequent trigrams:
 | ENT | X | X |  | X |  |
 | ION | X | X | X |  |  |
 | TER | X |  | X |  |  |
+| Total | 8(best) | 6 | 3 | 4 | 0(worst) |
 <!--- END RECEIVE ORGTBL trigrams
 #+ORGTBL: SEND trigrams orgtbl-to-gfm
-| Trigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
-|---------+---------+--------+---------+--------+--------|
-| THE     | X       | X      |         | X      |        |
-| AND     |         |        |         |        |        |
-| ING     |         |        |         |        |        |
-| HER     | X       |        |         |        |        |
-| HAT     | X       | X      |         | X      |        |
-| HIS     |         | X      |         |        |        |
-| THA     | X       | X      |         | X      |        |
-| ERE     | X       |        | X       |        |        |
-| FOR     |         |        |         |        |        |
-| ENT     | X       | X      |         | X      |        |
-| ION     | X       | X      | X       |        |        |
-| TER     | X       |        | X       |        |        |
+| Trigram | Keymacs | Norman | Colemak | Dvorak | QWERTY   |
+|---------+---------+--------+---------+--------+----------|
+| THE     | X       | X      |         | X      |          |
+| AND     |         |        |         |        |          |
+| ING     |         |        |         |        |          |
+| HER     | X       |        |         |        |          |
+| HAT     | X       | X      |         | X      |          |
+| HIS     |         | X      |         |        |          |
+| THA     | X       | X      |         | X      |          |
+| ERE     | X       |        | X       |        |          |
+| FOR     |         |        |         |        |          |
+| ENT     | X       | X      |         | X      |          |
+| ION     | X       | X      | X       |        |          |
+| TER     | X       |        | X       |        |          |
+| Total   | 8(best) | 6      | 3       | 4      | 0(worst) |
 -->
 In Keymacs 8 of 12 of the most frequent trigrams placed in home row
 without finger movement. Other compared layouts have lesser trigrams
@@ -202,22 +206,24 @@ At last results for the most frequent quadrigrams:
 | WHIC |  |  |  |  |  |
 | THIS |  | X |  |  |  |
 | THIN | X | X |  |  |  |
+| Total | 5(best) | 4 | 1 | 1 | 0(worst) |
 <!--END RECEIVE ORGTBL quadrigrams
 #+ORGTBL: SEND quadrigrams orgtbl-to-gfm
-| Quadrigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
-|------------+---------+--------+---------+--------+--------|
-| THAT       | X       | X      |         | X      |        |
-| THER       | X       |        |         |        |        |
-| WITH       |         |        |         |        |        |
-| TION       | X       | X      | X       |        |        |
-| HERE       | X       |        |         |        |        |
-| OULD       |         |        |         |        |        |
-| IGHT       |         |        |         |        |        |
-| HAVE       |         |        |         |        |        |
-| HICH       |         |        |         |        |        |
-| WHIC       |         |        |         |        |        |
-| THIS       |         | X      |         |        |        |
-| THIN       | X       | X      |         |        |        |
+| Quadrigram | Keymacs | Norman | Colemak | Dvorak | QWERTY   |
+|------------+---------+--------+---------+--------+----------|
+| THAT       | X       | X      |         | X      |          |
+| THER       | X       |        |         |        |          |
+| WITH       |         |        |         |        |          |
+| TION       | X       | X      | X       |        |          |
+| HERE       | X       |        |         |        |          |
+| OULD       |         |        |         |        |          |
+| IGHT       |         |        |         |        |          |
+| HAVE       |         |        |         |        |          |
+| HICH       |         |        |         |        |          |
+| WHIC       |         |        |         |        |          |
+| THIS       |         | X      |         |        |          |
+| THIN       | X       | X      |         |        |          |
+| Total      | 5(best) | 4      | 1       | 1      | 0(worst) |
 -->
 In Keymacs 5 of 12 of the most frequent quadrigrams placed in home row
 without finger movement. It followed by Norman layout with 4 of 12
