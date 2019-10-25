@@ -85,6 +85,8 @@ the configuration [keyboard-analyzer-config.json](keyboard-analyzer-config.json)
 
 ![Keymacs heatmap for I chapter of "Alice in Wonderland"](keymacs-heatmap-for-alice-in-wonderland.png)
 
+[link to results](http://patorjk.com/keyboard-layout-analyzer/#/load/ZWbPsn6V)
+
 Compare with QWERTY layout:
 
 ![QWERTY heatmap for I chapter of "Alice in Wonderland"](qwerty-heatmap-for-alice-in-wonderland.png)
