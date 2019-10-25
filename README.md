@@ -91,97 +91,92 @@ Compare with QWERTY layout:
 
 ### Top of the most frequent n-grams in English texts
 
-The table below consists of bigrams
-[sorted by popularity in English texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
-Columns for Keymacs, Norman and QWERTY layouts reflect two aspects:
+The tables below consists of n-grams (for n=2..4) [sorted by
+popularity in English
+texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
+It presents results for for Keymacs, Norman, Colemak, Dvorak
+(Programmer variant) and QWERTY layouts that reflect two aspects:
 
-* the letters placed in Home Row
-* the letters didn't require finger movement
+* all the letters of n-gram placed in Home Row
+* all the letters of n-gram didn't require finger movement
 
-If the condition for the layout succeeded then it marked with X. So
-compare number of X marks (more is better) for Keymacs well known
-layouts.
+If the conditions for the layout succeeded then it marked with X so
+more Xs are better.
 
 <!--- BEGIN RECEIVE ORGTBL bigrams -->
-| Bigram | Keymacs | Norman | Colemak | Dvorak |
-|---|---|---|---|---|
-| TH | X | X |  | X |
-| HE | X | X |  | X |
-| AN | X | X | X | X |
-| IN | X | X | X | X |
-| ER | X |  | X |  |
-| ND |  |  |  |  |
-| RE | X |  | X |  |
-| ED |  |  |  |  |
-| ES |  | X | X | X |
-| OU |  |  |  | X |
-| TO | X | X | X | X |
-| HA | X | X |  | X |
-<!--- END RECEIVE ORGTBL bigrams -->
-
-<!---
+| Bigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|--:|--:|--:|--:|--:|--:|
+| TH | X | X |  | X |  |
+| HE | X | X |  | X |  |
+| AN | X | X | X | X |  |
+| IN | X | X | X | X |  |
+| ER | X |  | X |  |  |
+| ND |  |  |  |  |  |
+| RE | X |  | X |  |  |
+| ED |  |  |  |  |  |
+| ES |  | X | X | X |  |
+| OU |  |  |  | X |  |
+| TO | X | X | X | X |  |
+| HA | X | X |  | X |  |
+<!--- END RECEIVE ORGTBL bigrams
 #+ORGTBL: SEND bigrams orgtbl-to-gfm
-| Bigram | Keymacs | Norman | Colemak | Dvorak |
-|--------+---------+--------+---------+--------|
-| TH     | X       | X      |         | X      |
-| HE     | X       | X      |         | X      |
-| AN     | X       | X      | X       | X      |
-| IN     | X       | X      | X       | X      |
-| ER     | X       |        | X       |        |
-| ND     |         |        |         |        |
-| RE     | X       |        | X       |        |
-| ED     |         |        |         |        |
-| ES     |         | X      | X       | X      |
-| OU     |         |        |         | X      |
-| TO     | X       | X      | X       | X      |
-| HA     | X       | X      |         | X      |
+| Bigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|--------+---------+--------+---------+--------+--------|
+| TH     | X       | X      |         | X      |        |
+| HE     | X       | X      |         | X      |        |
+| AN     | X       | X      | X       | X      |        |
+| IN     | X       | X      | X       | X      |        |
+| ER     | X       |        | X       |        |        |
+| ND     |         |        |         |        |        |
+| RE     | X       |        | X       |        |        |
+| ED     |         |        |         |        |        |
+| ES     |         | X      | X       | X      |        |
+| OU     |         |        |         | X      |        |
+| TO     | X       | X      | X       | X      |        |
+| HA     | X       | X      |         | X      |        |
 -->
-
-So in Keymacs 8/12 of the most frequent bigrams placed in home row
-without finger movement. Programmer Dvorak has the same result for
-the finger movement.
+Suchwise in Keymacs 8 of 12 for the most frequent bigrams placed in
+home row without finger movement. Dvorak has the same result for the
+finger movement.
 
 QWERTY is the worst case with the finger movement reqiured for all
-mentioned bigrams. It has not any frequent bigram in home row.
+mentioned bigrams and no frequent bigrams in home row.
 
-The same for the most frequent trigrams:
+The same test for the most frequent trigrams:
 
 <!--- BEGIN RECEIVE ORGTBL trigrams -->
-| Trigram | Keymacs | Norman | Colemak | Dvorak |
-|---|---|---|---|---|
-| THE | X | X |  | X |
-| AND |  |  |  |  |
-| ING |  |  |  |  |
-| HER | X |  |  |  |
-| HAT | X | X |  | X |
-| HIS |  | X |  |  |
-| THA | X | X |  | X |
-| ERE | X |  | X |  |
-| FOR |  |  |  |  |
-| ENT | X | X |  | X |
-| ION | X | X | X |  |
-| TER | X |  | X |  |
-<!--- END RECEIVE ORGTBL trigrams -->
-
-<!---
+| Trigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|--:|--:|--:|--:|--:|--:|
+| THE | X | X |  | X |  |
+| AND |  |  |  |  |  |
+| ING |  |  |  |  |  |
+| HER | X |  |  |  |  |
+| HAT | X | X |  | X |  |
+| HIS |  | X |  |  |  |
+| THA | X | X |  | X |  |
+| ERE | X |  | X |  |  |
+| FOR |  |  |  |  |  |
+| ENT | X | X |  | X |  |
+| ION | X | X | X |  |  |
+| TER | X |  | X |  |  |
+<!--- END RECEIVE ORGTBL trigrams
 #+ORGTBL: SEND trigrams orgtbl-to-gfm
-| Trigram | Keymacs | Norman | Colemak | Dvorak |
-|---------+---------+--------+---------+--------|
-| THE     | X       | X      |         | X      |
-| AND     |         |        |         |        |
-| ING     |         |        |         |        |
-| HER     | X       |        |         |        |
-| HAT     | X       | X      |         | X      |
-| HIS     |         | X      |         |        |
-| THA     | X       | X      |         | X      |
-| ERE     | X       |        | X       |        |
-| FOR     |         |        |         |        |
-| ENT     | X       | X      |         | X      |
-| ION     | X       | X      | X       |        |
-| TER     | X       |        | X       |        |
+| Trigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|---------+---------+--------+---------+--------+--------|
+| THE     | X       | X      |         | X      |        |
+| AND     |         |        |         |        |        |
+| ING     |         |        |         |        |        |
+| HER     | X       |        |         |        |        |
+| HAT     | X       | X      |         | X      |        |
+| HIS     |         | X      |         |        |        |
+| THA     | X       | X      |         | X      |        |
+| ERE     | X       |        | X       |        |        |
+| FOR     |         |        |         |        |        |
+| ENT     | X       | X      |         | X      |        |
+| ION     | X       | X      | X       |        |        |
+| TER     | X       |        | X       |        |        |
 -->
-
-In Keymacs 8/12 of the most frequent trigrams placed in home row
+In Keymacs 8 of 12 of the most frequent trigrams placed in home row
 without finger movement. Other compared layouts have lesser trigrams
 in home row.
 
@@ -191,43 +186,40 @@ mentioned trigrams. It has none frequent trigrams in home row.
 At last results for the most frequent quadrigrams:
 
 <!--- BEGIN RECEIVE ORGTBL quadrigrams -->
-| Quadrigram | Keymacs | Norman | Colemak | Dvorak |
-|---|---|---|---|---|
-| THAT | X | X |  | X |
-| THER | X |  |  |  |
-| WITH |  |  |  |  |
-| TION | X | X | X |  |
-| HERE | X |  |  |  |
-| OULD |  |  |  |  |
-| IGHT |  |  |  |  |
-| HAVE |  |  |  |  |
-| HICH |  |  |  |  |
-| WHIC |  |  |  |  |
-| THIS |  | X |  |  |
-| THIN | X | X |  |  |
-<!--- END RECEIVE ORGTBL quadrigrams -->
-
-<!---
+| Quadrigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|--:|--:|--:|--:|--:|--:|
+| THAT | X | X |  | X |  |
+| THER | X |  |  |  |  |
+| WITH |  |  |  |  |  |
+| TION | X | X | X |  |  |
+| HERE | X |  |  |  |  |
+| OULD |  |  |  |  |  |
+| IGHT |  |  |  |  |  |
+| HAVE |  |  |  |  |  |
+| HICH |  |  |  |  |  |
+| WHIC |  |  |  |  |  |
+| THIS |  | X |  |  |  |
+| THIN | X | X |  |  |  |
+<!--END RECEIVE ORGTBL quadrigrams
 #+ORGTBL: SEND quadrigrams orgtbl-to-gfm
-| Quadrigram | Keymacs | Norman | Colemak | Dvorak |
-|------------+---------+--------+---------+--------|
-| THAT       | X       | X      |         | X      |
-| THER       | X       |        |         |        |
-| WITH       |         |        |         |        |
-| TION       | X       | X      | X       |        |
-| HERE       | X       |        |         |        |
-| OULD       |         |        |         |        |
-| IGHT       |         |        |         |        |
-| HAVE       |         |        |         |        |
-| HICH       |         |        |         |        |
-| WHIC       |         |        |         |        |
-| THIS       |         | X      |         |        |
-| THIN       | X       | X      |         |        |
+| Quadrigram | Keymacs | Norman | Colemak | Dvorak | QWERTY |
+|------------+---------+--------+---------+--------+--------|
+| THAT       | X       | X      |         | X      |        |
+| THER       | X       |        |         |        |        |
+| WITH       |         |        |         |        |        |
+| TION       | X       | X      | X       |        |        |
+| HERE       | X       |        |         |        |        |
+| OULD       |         |        |         |        |        |
+| IGHT       |         |        |         |        |        |
+| HAVE       |         |        |         |        |        |
+| HICH       |         |        |         |        |        |
+| WHIC       |         |        |         |        |        |
+| THIS       |         | X      |         |        |        |
+| THIN       | X       | X      |         |        |        |
 -->
-
-In Keymacs 5/12 of the most frequent quadrigrams placed in home row
-without finger movement. Other compared layouts have less
-quadrigrams in home row. Only Norman has good result too.
+In Keymacs 5 of 12 of the most frequent quadrigrams placed in home row
+without finger movement. It followed by Norman layout with 4 of 12
+matches. Other compared layouts have less quadrigrams in home row.
 
 In Keymacs most of time you will use home row of your keyboard
 (carpalx simulator shows >70% of home row usage on default
