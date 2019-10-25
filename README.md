@@ -89,7 +89,7 @@ Compare with QWERTY layout:
 
 ![QWERTY heatmap for I chapter of "Alice in Wonderland"](qwerty-heatmap-for-alice-in-wonderland.png)
 
-### Top of the most frequent bigrams in English texts
+### Top of the most frequent n-grams in English texts
 
 The table below consists of bigrams
 [sorted by popularity in English texts](http://homepages.math.uic.edu/~leon/mcs425-s08/handouts/char_freq2.pdf).
