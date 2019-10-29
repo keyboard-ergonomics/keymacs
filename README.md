@@ -68,8 +68,6 @@ QWERTY and get keys placement well suited for Emacs bindings.
 So it is chance that if you use Emacs and apps with Emacs-like
 bindings then my keyboard layout may be good for you too.
 
-![Keymacs layout](keymacs-layout.png)
-
 ### Factors that taken into account
 
 * Preferable usage of the home row
