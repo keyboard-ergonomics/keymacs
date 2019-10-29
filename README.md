@@ -68,9 +68,11 @@ QWERTY and get keys placement well suited for Emacs bindings.
 So it is chance that if you use Emacs and apps with Emacs-like
 bindings then my keyboard layout may be good for you too.
 
+![Keymacs layout in 2019](keymacs-layout-2019.png)
+
 ### Factors that taken into account
 
-* Preferable usage of the home row
+* Preferable usage of the home row (the factor for high optimization)
 * Use English letter frequency statistics
 * Minimize lateral movement on the most used bigrams and trigrams
 * Minimize same finger usage on the most used bigrams and trigrams
